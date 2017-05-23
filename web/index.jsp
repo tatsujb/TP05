@@ -1,16 +1,18 @@
-<%--
-  Created by IntelliJ IDEA.
-  User:  Jacques Bardout <https://github.com/tatsujb/>
-  Date: 23/05/17
-  Time: 12:37
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $ENDdsfgh$gxdvjh
-  </body>
+    <head>
+        <title>Choix Civilité/Adresse</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href='<c:url value="inc/style.css" />' />
+    </head>
+    <body>
+        <!--<form method="get" action="inscription"><input type="submit" value="Aller au Formulaire" /></form>-->
+        <div class="ret"><a href='<c:url value="inscription" />' >Inscription</a></div>
+    </body>
 </html>
